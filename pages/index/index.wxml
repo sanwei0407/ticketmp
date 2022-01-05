@@ -1,0 +1,37 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="totype">
+        <view
+            wx:for="{{topType}}" 
+            class="{{ curType == item ?'ac':'' }}"
+            bindtap="setCurType"
+            data-type="{{item}}"
+
+         >{{ item }}</view>
+          
+    </view>
+      
+    <view class="sande">
+        <view class="scity"> 广州市 </view>
+        <view class="ecity"> 请选择下车地址 </view>   
+    </view>
+
+    <button class="searchBt" inline> 搜索 </button>
+
+    <view class="recommonTxt"> 
+        推荐线路
+    </view>
+
+    <view class="lines">
+        <view> </view>
+        <view> </view>
+        <view> </view>
+        <view> </view>
+           
+          
+        
+    </view>
+      
+      
+
+</view>

@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/list/list",
+    "pages/uc/uc",
+    "pages/index/index",
+    "pages/tklist/tklist"
+ 
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#ff6600",
+    "color": "#a9a9a9a",
+    "list": [
+      {
+        "iconPath": "assets/imgs/ticket.png",
+        "selectedIconPath": "assets/imgs/ticketac.png",
+        "text": "班车",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "iconPath": "assets/imgs/car.png",
+        "selectedIconPath": "assets/imgs/carac.png",
+        "text": "乘车",
+        "pagePath": "pages/tklist/tklist"
+      },
+      {
+        "iconPath": "assets/imgs/me.png",
+        "selectedIconPath": "assets/imgs/meac.png",
+        "text": "我",
+        "pagePath": "pages/uc/uc"
+      }
+    ]
+  },
+  "usingComponents": {
+    "van-cell": "@vant/weapp/cell/index",
+    "van-cell-group": "@vant/weapp/cell-group/index"
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,27 @@
+<view class="container">
+    <view class="userInfo"> 
+        <view class="avatar"></view>
+        <block wx:if="{{userInfo}}">
+            <view class="uname"></view>
+            <view class="uphone"></view>  
+        </block>
+        <view class="uname">立即登录</view>
+ 
+     </view>
+
+     <van-cell-group>
+        <van-cell title="我的订单" value="内容" />
+     </van-cell-group>
+
+      <van-cell-group>
+        <van-cell title="优惠券"  is-link />
+        <van-cell title="乘车人管理"  is-link />
+        <van-cell title="邀请好友"  is-link />
+     </van-cell-group>
+        <van-cell-group>
+        <van-cell title="问题反馈"  is-link />
+        <van-cell title="关于卢英"  is-link />
+        <van-cell title="客服中心"  is-link />
+     </van-cell-group>
+</view>
+  

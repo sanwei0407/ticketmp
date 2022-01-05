@@ -1,0 +1,14 @@
+page {
+
+}
+.theader{
+  display:flex;
+  justify-content: space-between;
+  padding: 30rpx 20rpx;
+  background: #fff;
+  margin-bottom: 30rpx;
+}
+.mlist{
+  height: 0;
+  flex-grow: 1;
+}

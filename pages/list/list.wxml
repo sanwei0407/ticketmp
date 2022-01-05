@@ -1,0 +1,18 @@
+<view class="container">
+    <view class="theader">
+       <view bindtap="predate">前一天</view>
+       <view>{{ curDateTxt }}</view>
+       <view bindtap="nextdate">后一天</view>
+    </view>
+    <view class="mlist">
+        <view>
+            
+        </view>
+          
+        
+    </view>
+      
+
+      
+</view>
+  
