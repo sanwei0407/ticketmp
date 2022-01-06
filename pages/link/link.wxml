@@ -1,0 +1,47 @@
+<view class="container">
+ 
+    <navigator class="addbtn" url="/pages/addLink/addLink" >
+        + 新增乘车人
+    </navigator>
+    <!-- 乘车人信息-->
+    <view class="linkCard">
+        <view class="lcTop">
+            <view>
+                <text class="realName"> Dixon </text>
+                <text> 成人 </text>
+            </view>
+             <view>
+                <text class="idNum"> 身份证 </text>
+                <text> 450*******511 </text>
+            </view>
+        </view>
+        <view class="lcBt">
+          <view>
+            <van-radio name="1" checked-color="#ff6600">设为默认</van-radio>
+          </view>
+          <view class="lcActions">
+            <view>
+               <van-icon name="records" /> 编辑
+            </view>
+             <view>
+                <van-icon name="close" /> 删除
+             </view>
+               
+  
+          </view>
+            
+          
+            
+              
+        
+        </view>
+          
+    </view>
+      
+     <view class="nomore">
+        没有更多的拉
+     </view>
+        
+      
+</view>
+  

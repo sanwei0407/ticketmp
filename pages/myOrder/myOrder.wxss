@@ -1,0 +1,57 @@
+page {
+  
+}
+.OrderInfo{
+  background: #fff;
+  margin-top: 20rpx;
+}
+.odTop{
+  padding:30rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.odCt{
+  padding: 20rpx;
+  background: #f3f3f3;
+
+}
+.odCt > view{
+  display: flex;
+  align-items: center;
+  line-height: 1.8;
+}
+
+.odCt > view::before{
+    content:'';
+    display: block;
+    width: 8rpx;
+    height: 8rpx;
+    border-radius: 50%;
+    margin-right: 20rpx;
+    
+}
+.start::before{
+  background: #ff6600;
+}
+.arrive::before{
+  background: #198b29;
+}
+.price{
+  font-size: 32rpx;
+  color:#ff6600;
+  line-height: 2.5;
+  text-align: right;
+  padding-right:20rpx
+}
+.actions{
+  display: flex;
+  justify-content: flex-end;
+  padding:20rpx 0;
+}
+.actions > view {
+  padding:5rpx 10rpx;
+  border:1px solid #888;
+  border-radius: 10rpx;
+  margin-right:20rpx;
+  font-size: 24rpx;
+}

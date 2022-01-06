@@ -1,0 +1,15 @@
+page {
+  
+}
+.linkType{
+  display: flex;
+}
+.ltItem{
+  padding:5rpx 20rpx
+}
+.ltItem.ac{
+  background: #ff66004b;
+  color:#000;
+  border-radius: 6rpx;
+  border:1rpx solid #ff6600
+}

@@ -1,0 +1,37 @@
+<view class="container">
+    <view>
+        <van-cell title="乘客类型" >
+            <view class="linkType">
+                <view class="ltItem ac">成人</view>
+                <view class="ltItem">儿童</view>
+            </view>
+        </van-cell>
+        <van-field
+            input-align="right"
+            placeholder="请输入身份证上面的名字"
+            label="乘客姓名"
+        />
+        <van-field
+            input-align="right"
+            placeholder="用于联系您准时上车"
+            label="联系电话"
+        />
+        <van-cell title="乘客类型"  value="身份证" is-link bind:click="stc" />
+        <van-action-sheet
+          show="{{ showTypeChoose }}"
+          actions="{{ types }}"
+          cancel-text="取消"
+          bind:cancel="onCancel"
+          bind:change="onConfirm"
+        />
+        <van-field
+            input-align="right"
+            placeholder="请输入证件号码"
+            label="证件号码"
+        />
+    </view>
+
+    <van-button type="warning" block custom-style="margin-top:100px;width:700rpx">添加</van-button>
+      
+</view>
+  

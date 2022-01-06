@@ -10,12 +10,12 @@
      </view>
 
      <van-cell-group>
-        <van-cell title="我的订单" value="内容" />
+        <van-cell title="我的订单" url="/pages/myOrder/myOrder" value="内容" />
      </van-cell-group>
 
       <van-cell-group>
         <van-cell title="优惠券"  is-link />
-        <van-cell title="乘车人管理"  is-link />
+        <van-cell title="乘车人管理"  url="/pages/link/link" is-link />
         <van-cell title="邀请好友"  is-link />
      </van-cell-group>
         <van-cell-group>

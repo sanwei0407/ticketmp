@@ -1,10 +1,15 @@
 {
   "pages": [
+     "pages/uc/uc",
+    "pages/orderDetail/orderDetail",
+    "pages/myOrder/myOrder",
+    "pages/addLink/addLink",
+    "pages/link/link",
     "pages/list/list",
-    "pages/uc/uc",
+   
     "pages/index/index",
     "pages/tklist/tklist"
- 
+
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -37,8 +42,18 @@
     ]
   },
   "usingComponents": {
+    "van-icon": "@vant/weapp/icon/index",
     "van-cell": "@vant/weapp/cell/index",
-    "van-cell-group": "@vant/weapp/cell-group/index"
+    "van-cell-group": "@vant/weapp/cell-group/index",
+    "van-radio": "@vant/weapp/radio/index",
+    "van-radio-group": "@vant/weapp/radio-group/index",
+    "van-field": "@vant/weapp/field/index",
+    "van-button": "@vant/weapp/button/index",
+    "van-popup": "@vant/weapp/popup/index",
+    "van-picker": "@vant/weapp/picker/index",
+    "van-action-sheet": "@vant/weapp/action-sheet/index",
+    "van-tab": "@vant/weapp/tab/index",
+    "van-tabs": "@vant/weapp/tabs/index"
   },
   "sitemapLocation": "sitemap.json"
 }

@@ -1,0 +1,48 @@
+.addbtn{
+  line-height: 100rpx;
+  text-align: center;
+  background: #fff;
+  color:#ff6600;
+  border-top: 1px solid #ccc;
+}
+.linkCard{
+  background: #fff;
+  margin-top: 30rpx;
+  padding: 20rpx;
+}
+.linkCard text{
+  color:#666
+}
+.realName{
+  color:#000;
+  margin-right: 30rpx;
+}
+.idNum{
+  margin-right: 30rpx;
+}
+.lcTop{
+  line-height: 1.5;
+  padding: 20rpx;
+  border-bottom: 1px solid rgb(235, 235, 235);
+}
+.lcBt{
+  justify-content: space-between;
+  display: flex;
+  padding-top: 20rpx;
+}
+.lcBt radio{
+  width: 20rpx;
+  height: 20rpx;
+}
+.lcActions{
+  display: flex;
+  align-items: center;
+}
+.lcActions >  view{
+  margin-left: 40rpx;
+}
+.nomore{
+  text-align: center;
+  line-height: 100rpx;
+  color:#999
+}

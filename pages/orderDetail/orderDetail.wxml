@@ -1,0 +1,42 @@
+<view class="container">
+
+    <view class="orderInfo">
+         <view>订单编号2222222</view>
+         <view> 已取消 </view>
+         <view> 期待您的再次购票</view>
+    </view>
+    <view class="ct">
+          <van-cell-group>
+            <van-cell custom-class="itbox" title="乘车时间:2022/01/05 11:50" value="城际快车" />
+            <van-cell >
+                <view class="sande">
+                  <view class="scity"> 广州市 </view>
+                  <view class="ecity"> 深圳市 </view>   
+                </view>
+            </van-cell>
+            <van-cell title="客服电话" value="1234567" value-class="phone" />
+            <van-cell title="现在引导员" value="1234567" value-class="phone" />
+          </van-cell-group>
+
+          <van-cell-group>
+            <van-cell title="乘车人" value="1人" />
+            <van-cell title="刘月同" value="1234567"  />
+            <van-cell title="购票事件" value="2021-12-08 17:19:53"  />
+          </van-cell-group>
+
+          <van-cell-group>
+            <van-cell title="车票金额" value="¥" />
+            <van-cell title="订单总金额" value="¥123"  />
+          </van-cell-group>
+
+    </view>
+      
+
+    <view class="ft"> 
+        <view> 删除订单</view>
+        <view> 再来一单 </view>
+    </view>
+      
+      
+      
+</view>
