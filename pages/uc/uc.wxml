@@ -5,7 +5,7 @@
             <view class="uname"></view>
             <view class="uphone"></view>  
         </block>
-        <view class="uname">立即登录</view>
+        <button open-type="getUserInfo" bindgetuserinfo="getUserInfo" class="uname">立即登录</button>
  
      </view>
 

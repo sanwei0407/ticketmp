@@ -25,4 +25,14 @@ Page({
       title: '',
     };
   },
+  getUserInfo(res){
+    wx.getUserProfile({
+      success(res){
+        console.log(res)
+      },
+      fail(err){
+        console.log(res)
+      }
+    })
+  }
 });
